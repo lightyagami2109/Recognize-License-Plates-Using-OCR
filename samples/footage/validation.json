@@ -1,0 +1,68 @@
+{
+  "sample_count": 10,
+  "total_decoded_frames": 750,
+  "total_duration_seconds": 50.0,
+  "unique_source_pages": 10,
+  "clips": [
+    {
+      "file": "traffic_01.mp4",
+      "decoded_frames": 75,
+      "fps": 15.0,
+      "first_last_mean_pixel_difference": 21.4
+    },
+    {
+      "file": "traffic_02.mp4",
+      "decoded_frames": 75,
+      "fps": 15.0,
+      "first_last_mean_pixel_difference": 39.531
+    },
+    {
+      "file": "traffic_03.mp4",
+      "decoded_frames": 75,
+      "fps": 15.0,
+      "first_last_mean_pixel_difference": 8.656
+    },
+    {
+      "file": "traffic_04.mp4",
+      "decoded_frames": 75,
+      "fps": 15.0,
+      "first_last_mean_pixel_difference": 12.849
+    },
+    {
+      "file": "traffic_05.mp4",
+      "decoded_frames": 75,
+      "fps": 15.0,
+      "first_last_mean_pixel_difference": 53.627
+    },
+    {
+      "file": "traffic_06.mp4",
+      "decoded_frames": 75,
+      "fps": 15.0,
+      "first_last_mean_pixel_difference": 72.893
+    },
+    {
+      "file": "traffic_07.mp4",
+      "decoded_frames": 75,
+      "fps": 15.0,
+      "first_last_mean_pixel_difference": 61.191
+    },
+    {
+      "file": "traffic_08.mp4",
+      "decoded_frames": 75,
+      "fps": 15.0,
+      "first_last_mean_pixel_difference": 31.795
+    },
+    {
+      "file": "traffic_09.mp4",
+      "decoded_frames": 75,
+      "fps": 15.0,
+      "first_last_mean_pixel_difference": 77.869
+    },
+    {
+      "file": "traffic_10.mp4",
+      "decoded_frames": 75,
+      "fps": 15.0,
+      "first_last_mean_pixel_difference": 43.22
+    }
+  ]
+}

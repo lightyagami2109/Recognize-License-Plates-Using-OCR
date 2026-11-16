@@ -1,0 +1,11 @@
+{
+  "source": "six-frame, 3 FPS repeated-photo smoke clip; not moving traffic",
+  "processed_code_revision": "deeec0ed6a34a3c7b10fc184195e41322571ccdf",
+  "evaluated_code_revision": "deeec0ed6a34a3c7b10fc184195e41322571ccdf",
+  "decoded_output_frames": 6,
+  "output_fps": 3.0,
+  "matching_prediction_csv": "../evaluation/preliminary_predictions.csv",
+  "frame_0_expected_text": "5AU5341",
+  "frame_0_predicted_text": "LEV31",
+  "frame_0_ocr_confidence": 0.1064
+}

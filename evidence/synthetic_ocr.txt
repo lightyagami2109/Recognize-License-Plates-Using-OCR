@@ -1,0 +1,10 @@
+Command: python read_plate.py samples/synthetic_plate.png
+Code revision: deeec0ed6a34a3c7b10fc184195e41322571ccdf
+Exit status: 0
+
+Using CPU. Note: This module is much faster with a GPU.
+/Users/arpit/Desktop/cv_numberplate/.venv/lib/python3.11/site-packages/torch/ao/nn/quantized/dynamic/modules/rnn.py:162: UserWarning: torch.quantize_per_tensor, torch.quantize_per_channel and other quantized tensor creation functions that produce tensors with dtype torch.quint8, torch.qint8, and torch.qint32 are deprecated and will be removed in a future PyTorch release. Please see https://github.com/pytorch/pytorch/issues/184982 for more information. (Triggered internally at /Users/runner/work/pytorch/pytorch/aten/src/ATen/quantized/Quantizer.cpp:116.)
+  w_ih = torch.quantize_per_tensor(
+/Users/arpit/Desktop/cv_numberplate/.venv/lib/python3.11/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
+  super().__init__(loader)
+Plate text: MH12AB1234 | OCR confidence: 0.99

@@ -1,0 +1,31 @@
+Command: python -m unittest -v
+Code revision: deeec0ed6a34a3c7b10fc184195e41322571ccdf
+Exit status: 0
+
+test_crops_and_empty_detection (test_detect_plates.DetectPlateTests.test_crops_and_empty_detection) ... ok
+test_download_checksum_and_cache (test_detect_plates.DetectPlateTests.test_download_checksum_and_cache) ... ok
+test_invalid_input_does_not_load_model (test_detect_plates.DetectPlateTests.test_invalid_input_does_not_load_model) ... ok
+test_ocr_reuses_reader_and_records_unreadable_plates (test_detect_plates.DetectPlateTests.test_ocr_reuses_reader_and_records_unreadable_plates) ... ok
+test_invalid_and_contradictory_labels (test_evaluate.EvaluationTests.test_invalid_and_contradictory_labels) ... ok
+test_iou (test_evaluate.EvaluationTests.test_iou) ... ok
+test_matching_duplicates_misses_and_ocr_denominators (test_evaluate.EvaluationTests.test_matching_duplicates_misses_and_ocr_denominators) ... ok
+test_no_detections_and_unreadable_ground_truth (test_evaluate.EvaluationTests.test_no_detections_and_unreadable_ground_truth) ... ok
+test_bad_fps_and_early_end_are_errors (test_process_video.ProcessVideoTests.test_bad_fps_and_early_end_are_errors) ... ok
+test_encoder_failure_releases_resources (test_process_video.ProcessVideoTests.test_encoder_failure_releases_resources) ... ok
+test_invalid_video_does_not_load_models (test_process_video.ProcessVideoTests.test_invalid_video_does_not_load_models) ... [mov,mp4,m4a,3gp,3g2,mj2 @ 0x7a32d4d900] moov atom not found
+OpenCV: Couldn't read video stream from file "/var/folders/0h/fbl0467j2lx3q3k3mw894lw00000gn/T/tmphgonrjef/missing.mp4"
+ok
+test_round_trip_reuses_models_and_preserves_frames (test_process_video.ProcessVideoTests.test_round_trip_reuses_models_and_preserves_frames) ... ok
+test_image_and_ocr_results (test_read_plate.ReadPlateTests.test_image_and_ocr_results) ... ok
+test_invalid_images_do_not_load_models (test_read_plate.ReadPlateTests.test_invalid_images_do_not_load_models) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.141s
+
+OK
+Downloading the plate detector (first run only)...
+plate_1.png: MH12AB1234 | OCR 0.92 | Detection 0.90
+plate_2.png: Unreadable | Detection 0.80
+Saving video in /private/var/folders/0h/fbl0467j2lx3q3k3mw894lw00000gn/T/tmp97mgiluo/output/input_n5ij601k
+Saving video in /private/var/folders/0h/fbl0467j2lx3q3k3mw894lw00000gn/T/tmpy1qi6qvb/output/input_6z7n2ssc
+Saving video in /private/var/folders/0h/fbl0467j2lx3q3k3mw894lw00000gn/T/tmpy1qi6qvb/output/input_5f1sh85l

@@ -1,0 +1,20 @@
+Command: python evaluate.py evaluation/preliminary_ground_truth.csv evaluation/preliminary_predictions.csv
+Code revision: deeec0ed6a34a3c7b10fc184195e41322571ccdf
+Exit status: 0
+
+{
+  "evaluated_frames": 1,
+  "ignored_prediction_rows": 5,
+  "ground_truth_plates": 1,
+  "readable_ground_truth_plates": 1,
+  "true_positives": 1,
+  "false_positives": 0,
+  "false_negatives": 0,
+  "matched_readable_plates": 1,
+  "correct_plate_reads": 0,
+  "iou_threshold": 0.5,
+  "detection_precision": 1.0,
+  "detection_recall": 1.0,
+  "ocr_exact_match_accuracy": 0.0,
+  "end_to_end_exact_match_accuracy": 0.0
+}
